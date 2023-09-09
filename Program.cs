@@ -15,12 +15,23 @@ class Program
         Console.WriteLine("Área del círculo: " + miCirculo.CalcularArea());
         Console.WriteLine("Perímetro del círculo: " + miCirculo.CalcularPerimetro());
 
-        Console.WriteLine("Ingrese el valor de los lados");
+        Console.WriteLine("Ingrese el valor de una de las caras del cuadrado");
         double lados = Convert.ToDouble(Console.ReadLine());
 
         Cuadrado cuadrado = new Cuadrado(lados);
         Console.WriteLine("Área del cuadrado: "+cuadrado.CalcularArea());
         Console.WriteLine("Perimetro del cuadrado: "+cuadrado.CalcularPerimetro());
+
+        Console.WriteLine("Ingrese el valor del lado Horizontal");
+        double ladoH = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Ingrese el valor del lado Vertical");
+        double ladoV = Convert.ToDouble(Console.ReadLine());
+
+        Rectangulo rectangulo = new Rectangulo(ladoH, ladoV);
+        Console.WriteLine("El Área del rectangulo es: "+rectangulo.CalcularArea());
+        Console.WriteLine("El Perimetro del rectangulo es: "+rectangulo.CalcularPerimetro());
+
 
     }
 }
@@ -81,9 +92,41 @@ public class Cuadrado : Figura{
     }
 }
 
-
-
-
+public class Rectangulo : Figura{
+    private double ladoH;
+    private double ladoV;
+    
+    public double _ladoH{
+        get{return ladoH;}
+        set{
+            if(value >= 0){
+                ladoH = value;
+            }else{
+                throw new ArgumentException("El valor no puede ser de valor negativo");
+            }
+        }
+    }
+    public double _ladoV{
+        get{return ladoV;}
+        set{
+            if(value >= 0 && value != ladoH){
+                ladoV = value;
+            }else{
+                throw new ArgumentException("El valor no puede ser de valor negativo o diferente ");
+            }
+        }
+    }
+    public Rectangulo(double ladoH, double ladoV){
+        this._ladoH = ladoH;
+        this._ladoV = ladoV;
+    }
+    public override double CalcularPerimetro(){
+        return 2*_ladoH + _ladoV*2;
+    }
+    public override double CalcularArea(){
+        return _ladoH * _ladoV;
+    }
+}
 
 
 
