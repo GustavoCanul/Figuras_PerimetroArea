@@ -15,8 +15,13 @@ class Program
         Console.WriteLine("Área del círculo: " + miCirculo.CalcularArea());
         Console.WriteLine("Perímetro del círculo: " + miCirculo.CalcularPerimetro());
 
-        Console.WriteLine("Ingrese el valor del lado1");
-        double lado1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Ingrese el valor de los lados");
+        double lados = Convert.ToDouble(Console.ReadLine());
+
+        Cuadrado cuadrado = new Cuadrado(lados);
+        Console.WriteLine("Área del cuadrado: "+cuadrado.CalcularArea());
+        Console.WriteLine("Perimetro del cuadrado: "+cuadrado.CalcularPerimetro());
+
     }
 }
 
@@ -27,12 +32,12 @@ public abstract class Figura{
 }
 
 public class Circulo : Figura{
-    private double _radio;
-    public double radio{
-        get{return _radio;}  
-        set{
+    private double _radio; //esta sera mi variable de respaldo o mi contenedor:3
+    public double radio{//Propiedad radio e intento de validacion
+        get{return _radio;}  //accedemos a mi variable de respaldo
+        set{//realizamos la validacion y si es validad, podremos usar el valor de la propiedad radio
             if(value >= 0){
-                _radio = value;
+                _radio = value;//se valida y se respalda en mi variable _radio
             }else{
                 Console.WriteLine("Prueba para la consola");
                 throw new ArgumentException("El radio debe de ser un valor positivo");
@@ -52,38 +57,27 @@ public class Circulo : Figura{
     }
 }
 public class Cuadrado : Figura{
-    private double lado1;
-    private double lado2;
-    public double _lado1{
-        get{return lado1;}
+    private double lados;
+
+    public double _lados{//Propiedad _lados y intento de validacion
+        get{return lados;}
         set{
             if(value >= 0){
-                _lado1 = value;
-            }
-            else{
+                lados = value;
+            }else{
                 throw new ArgumentException("Debe de ser un valor positivo");
             }
         }
     }
-    public double _lado2{
-        get{return lado2;}
-        set{
-            if(value >= 0 && value == lado2){
-                _lado2 = value;
-            }else{
-                throw new ArgumentException("Debe de ser un valor positivo o igual al otro lado");
-            }
-        }
-    }
-    public Cuadrado(double lado1, double lado2){
-        this._lado1 = lado1;
-        this._lado2 = lado2;
+    public Cuadrado(double lados){
+        this._lados = lados;
+
     }
     public override double CalcularArea(){
-        return _lado1 * _lado2;
+        return _lados * _lados;
     }
     public override double CalcularPerimetro(){
-        return _lado1 * 4;
+        return _lados * 4;
     }
 }
 
