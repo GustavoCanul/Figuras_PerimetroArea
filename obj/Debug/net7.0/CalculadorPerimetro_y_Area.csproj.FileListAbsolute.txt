@@ -1,0 +1,15 @@
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\bin\Debug\net7.0\CalculadorPerimetro_y_Area.exe
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\bin\Debug\net7.0\CalculadorPerimetro_y_Area.deps.json
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\bin\Debug\net7.0\CalculadorPerimetro_y_Area.runtimeconfig.json
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\bin\Debug\net7.0\CalculadorPerimetro_y_Area.dll
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\bin\Debug\net7.0\CalculadorPerimetro_y_Area.pdb
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\obj\Debug\net7.0\CalculadorPerimetro_y_Area.csproj.AssemblyReference.cache
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\obj\Debug\net7.0\CalculadorPerimetro_y_Area.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\obj\Debug\net7.0\CalculadorPerimetro_y_Area.AssemblyInfoInputs.cache
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\obj\Debug\net7.0\CalculadorPerimetro_y_Area.AssemblyInfo.cs
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\obj\Debug\net7.0\CalculadorPerimetro_y_Area.csproj.CoreCompileInputs.cache
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\obj\Debug\net7.0\CalculadorPerimetro_y_Area.dll
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\obj\Debug\net7.0\refint\CalculadorPerimetro_y_Area.dll
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\obj\Debug\net7.0\CalculadorPerimetro_y_Area.pdb
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\obj\Debug\net7.0\CalculadorPerimetro_y_Area.genruntimeconfig.cache
+C:\Users\Lenov\Documents\Tareas4-Cuatri\POO\CalculadorPerimetro_y_Area\obj\Debug\net7.0\ref\CalculadorPerimetro_y_Area.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CalculadorPerimetro_y_Area/1.0.0": {
+        "runtime": {
+          "CalculadorPerimetro_y_Area.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculadorPerimetro_y_Area/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
